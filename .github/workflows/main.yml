@@ -30,4 +30,4 @@ jobs:
       - run: npm install
       - run: npm test
       - name: Install Dependencies
-        run: npm run buid
+        run: npm run build
