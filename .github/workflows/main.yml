@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Mema webb build
 
 # Controls when the workflow will run
 on:
@@ -29,8 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # Runs a single command using the runners shell
+      - name: Current dir
+        run: pwd
+
+        # Runs a single command using the runners shell
+      - name: list files
+        run: ls
