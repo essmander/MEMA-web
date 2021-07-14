@@ -36,3 +36,7 @@ jobs:
         # Runs a single command using the runners shell
       - name: list files
         run: ls
+
+        # Runs a single command using the runners shell
+      - name: Check npm CLI
+        run: npm
